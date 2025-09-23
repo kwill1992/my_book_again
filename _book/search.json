@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 more\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -57,6 +57,36 @@
     "text": "3.1 getting harder",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>why_me</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#more",
+    "href": "intro.html#more",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "more a\n\n\nmore b\n\n\nmore c",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#less",
+    "href": "intro.html#less",
+    "title": "1  Introduction",
+    "section": "1.2 less",
+    "text": "1.2 less",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#true",
+    "href": "intro.html#true",
+    "title": "1  Introduction",
+    "section": "1.3 true",
+    "text": "1.3 true\n\nture z\n\ntrue za\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   }
 ]

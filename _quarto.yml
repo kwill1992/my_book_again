@@ -1,10 +1,12 @@
 project:
   type: book
-
+number-depth: 2
 book:
   title: "my_book_again"
   author: "Kevin Williams"
   date: "9/22/2025"
+  cover-image: cover.png
+  favicon: cover.png
   chapters:
     - index.qmd
     - intro.qmd
