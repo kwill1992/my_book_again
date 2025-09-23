@@ -5,8 +5,8 @@ book:
   title: "my_book_again"
   author: "Kevin Williams"
   date: "9/22/2025"
-  cover-image: cover.png
-  favicon: cover.png
+  cover-image: cover.jpg
+  #favicon: cover.jpg
   chapters:
     - index.qmd
     - intro.qmd
