@@ -7,6 +7,7 @@ book:
   date: "9/22/2025"
   cover-image: cover.jpg
   favicon: cover.jpg
+  repo-url: https://github.com/kwill1992/my_book_again.git
   chapters:
     - index.qmd
     - intro.qmd
