@@ -6,13 +6,17 @@ book:
   author: "Kevin Williams"
   date: "9/22/2025"
   cover-image: cover.jpg
-  #favicon: cover.jpg
+  favicon: cover.jpg
   chapters:
     - index.qmd
     - intro.qmd
-    - meat.qmd
-    - why_me.qmd
-    - summary.qmd
+    - part: "Part 1"
+      chapters: 
+       - meat.qmd
+       - why_me.qmd
+    - part: "Part 2"
+      chapters:
+       - summary.qmd
     - references.qmd
 
 bibliography: references.bib
