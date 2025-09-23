@@ -3,11 +3,13 @@ project:
 
 book:
   title: "my_book_again"
-  author: "Norah Jones"
+  author: "Kevin Williams"
   date: "9/22/2025"
   chapters:
     - index.qmd
     - intro.qmd
+    - meat.qmd
+    - why_me.qmd
     - summary.qmd
     - references.qmd
 
