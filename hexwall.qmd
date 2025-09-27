@@ -1,7 +1,7 @@
 # Hexwall
 
 
-# load hexwall.R function
+## load hexwall.R function
 ```{r}
 source("~/Documents/r-studio-and-git/my_book_again/hexwall.R")
 
