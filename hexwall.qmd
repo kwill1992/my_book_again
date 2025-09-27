@@ -1,5 +1,10 @@
 # Hexwall
 
+## Hex file resources
+
+### Shiny App for creating hex
+https://connect.thinkr.fr/hexmake/
+
 
 ## load hexwall.R function
 ```{r}
