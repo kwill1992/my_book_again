@@ -20,49 +20,6 @@
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "5  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "Part 2",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
-    "objectID": "meat.html",
-    "href": "meat.html",
-    "title": "2  Meat",
-    "section": "",
-    "text": "2.1 this is the meat of things",
-    "crumbs": [
-      "Part 1",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
-    ]
-  },
-  {
-    "objectID": "why_me.html",
-    "href": "why_me.html",
-    "title": "3  why_me",
-    "section": "",
-    "text": "3.1 getting harder",
-    "crumbs": [
-      "Part 1",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>why_me</span>"
-    ]
-  },
-  {
     "objectID": "intro.html#more",
     "href": "intro.html#more",
     "title": "1  Introduction",
@@ -103,6 +60,28 @@
     ]
   },
   {
+    "objectID": "meat.html",
+    "href": "meat.html",
+    "title": "2  Meat",
+    "section": "",
+    "text": "2.1 this is the meat of things",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
+    ]
+  },
+  {
+    "objectID": "why_me.html",
+    "href": "why_me.html",
+    "title": "3  why_me",
+    "section": "",
+    "text": "3.1 getting harder",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>why_me</span>"
+    ]
+  },
+  {
     "objectID": "hexwall.html",
     "href": "hexwall.html",
     "title": "4  Hexwall",
@@ -111,6 +90,27 @@
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "5  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
