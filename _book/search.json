@@ -71,6 +71,17 @@
     ]
   },
   {
+    "objectID": "meat.html#this-is-the-meat-of-things",
+    "href": "meat.html#this-is-the-meat-of-things",
+    "title": "2  Meat",
+    "section": "",
+    "text": "this is not the meat of things",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
+    ]
+  },
+  {
     "objectID": "why_me.html",
     "href": "why_me.html",
     "title": "3  why_me",
@@ -111,17 +122,6 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
-    ]
-  },
-  {
-    "objectID": "meat.html#this-is-the-meat-of-things",
-    "href": "meat.html#this-is-the-meat-of-things",
-    "title": "2  Meat",
-    "section": "",
-    "text": "this is not the meat of things",
-    "crumbs": [
-      "Part 1",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
     ]
   }
 ]
