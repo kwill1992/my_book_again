@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my_book_again",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 more\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#more",
+    "href": "intro.html#more",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "more a\n\n\nmore b\n\n\nmore c",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#less",
+    "href": "intro.html#less",
+    "title": "1  Introduction",
+    "section": "1.2 less",
+    "text": "1.2 less",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#true",
+    "href": "intro.html#true",
+    "title": "1  Introduction",
+    "section": "1.3 true",
+    "text": "1.3 true\n\nture z\n\ntrue za\n\n\n\nffg",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#qwgwe",
+    "href": "intro.html#qwgwe",
+    "title": "1  Introduction",
+    "section": "1.4 qwgwe=====",
+    "text": "1.4 qwgwe=====\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "meat.html",
+    "href": "meat.html",
+    "title": "2  Meat",
+    "section": "",
+    "text": "2.1 this is the meat of things",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
+    ]
+  },
+  {
+    "objectID": "meat.html#this-is-the-meat-of-things",
+    "href": "meat.html#this-is-the-meat-of-things",
+    "title": "2  Meat",
+    "section": "",
+    "text": "this is not the meat of things",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
+    ]
+  },
+  {
+    "objectID": "why_me.html",
+    "href": "why_me.html",
+    "title": "3  why_me",
+    "section": "",
+    "text": "3.1 getting harder b bb",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>why_me</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html",
+    "href": "hexwall.html",
+    "title": "4  Hexwall",
+    "section": "",
+    "text": "4.1 Hex file resources",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#hex-file-resources",
+    "href": "hexwall.html#hex-file-resources",
+    "title": "4  Hexwall",
+    "section": "",
+    "text": "Shiny App for creating hex\nhttps://connect.thinkr.fr/hexmake/",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#load-hexwall.r-function",
+    "href": "hexwall.html#load-hexwall.r-function",
+    "title": "4  Hexwall",
+    "section": "4.2 load hexwall.R function",
+    "text": "4.2 load hexwall.R function\n\nsource(\"~/Documents/r-studio-and-git/my_book_again/hexwall.R\")\n\nLinking to ImageMagick 6.9.13.29\nEnabled features: cairo, fontconfig, freetype, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fftw, ghostscript, x11\n\ntest &lt;- hexwall(\"~/Documents/r-studio-and-git/my_book_again/my_stickers\", sticker_row_size = 7, sticker_width = 200)\n\nWarning: `invoke()` was deprecated in purrr 1.0.0.\nℹ Please use `exec()` instead.\n\ntest\n\n\n\n\n\n\n\n\nsource(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/hexwall.R”) # call hexwall function and assign to “test” # this sometimes get an error – try adjusting sticker_row_size test &lt;- hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/my_stickers”, sticker_row_size = 7, sticker_width = 200) test\npng(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex”, sticker_row_size = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) dev.off()",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "5  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
