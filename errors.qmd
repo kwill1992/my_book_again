@@ -1,0 +1,5 @@
+# Errors {.unnumbered}
+
+### Github
+- to fix a git push commit holding up  
+  - rm .git/index.lock [in Terminal]

@@ -156,5 +156,15 @@
     "crumbs": [
       "References"
     ]
+  },
+  {
+    "objectID": "errors.html",
+    "href": "errors.html",
+    "title": "Errors",
+    "section": "",
+    "text": "Github\n\nto fix a git push commit holding up\n\nrm .git/index.lock [in Terminal]",
+    "crumbs": [
+      "Errors"
+    ]
   }
 ]
