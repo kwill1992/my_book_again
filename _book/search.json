@@ -101,5 +101,16 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
+  },
+  {
+    "objectID": "hexwall.html",
+    "href": "hexwall.html",
+    "title": "4  Hexwall",
+    "section": "",
+    "text": "5 load hexwall.R function\n\nsource(\"~/Documents/r-studio-and-git/my_book_again/hexwall.R\")\n\nLinking to ImageMagick 6.9.13.29\nEnabled features: cairo, fontconfig, freetype, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fftw, ghostscript, x11\n\ntest &lt;- hexwall(\"~/Documents/r-studio-and-git/my_book_again/my_stickers\", sticker_row_size = 7, sticker_width = 200)\n\nWarning: `invoke()` was deprecated in purrr 1.0.0.\nℹ Please use `exec()` instead.\n\ntest\n\n\n\n\n\n\n\n\nsource(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/hexwall.R”) # call hexwall function and assign to “test” # this sometimes get an error – try adjusting sticker_row_size test &lt;- hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/my_stickers”, sticker_row_size = 7, sticker_width = 200) test\npng(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex”, sticker_row_size = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) dev.off()",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
   }
 ]
