@@ -16,6 +16,9 @@ book:
        - meat.qmd
        - why_me.qmd
        - hexwall.qmd
+    - part: "Projects"
+      chapters:
+       - projects.qmd
     - part: "Part 2"
       chapters:
        - summary.qmd

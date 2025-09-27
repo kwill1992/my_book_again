@@ -145,5 +145,16 @@
     "crumbs": [
       "References"
     ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "5  Projects",
+    "section": "",
+    "text": "Get Hexwall working\nGet Hexwall working with maps\nMake a RRL Hex with Shiny App\nMake a RRL Hex with hexSticker package\nGet a Shiny Hexwall working\nGet a Shiny Hexwall working with maps\nGet a Shiny Hexwall working with multiple map choices\nGet an updated Hexwall working with an input of a hex",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+    ]
   }
 ]

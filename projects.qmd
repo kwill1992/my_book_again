@@ -1,0 +1,11 @@
+# Projects
+
+
+- Get Hexwall working
+- Get Hexwall working with maps
+- Make a RRL Hex with Shiny App
+- Make a RRL Hex with hexSticker package
+- Get a Shiny Hexwall working
+- Get a Shiny Hexwall working with maps
+- Get a Shiny Hexwall working with multiple map choices
+- Get an updated Hexwall working with an input of a hex
