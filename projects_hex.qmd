@@ -1,4 +1,4 @@
-# Projects
+# Projects - Hex
 
 
 - Get Hexwall working
@@ -9,3 +9,7 @@
 - Get a Shiny Hexwall working with maps
 - Get a Shiny Hexwall working with multiple map choices
 - Get an updated Hexwall working with an input of a hex
+
+- use ellmer package
+- get prompt working with openai
+

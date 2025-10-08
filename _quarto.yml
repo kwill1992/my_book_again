@@ -18,7 +18,7 @@ book:
        - hexwall.qmd
     - part: "Projects"
       chapters:
-       - projects.qmd
+       - projects_hex.qmd
     - part: "Part 2"
       chapters:
        - summary.qmd
