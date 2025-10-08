@@ -1,0 +1,7 @@
+# Projects - OpenAI
+
+-   
+
+-   use ellmer package
+
+-   get prompt working with openai

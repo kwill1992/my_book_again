@@ -19,6 +19,7 @@ book:
     - part: "Projects"
       chapters:
        - projects_hex.qmd
+       - projects_openai.qmd
     - part: "Part 2"
       chapters:
        - summary.qmd
