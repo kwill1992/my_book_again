@@ -5,7 +5,7 @@
 
 ```{r}
 library(ellmer)
-chat <- chat_openai()
+#chat <- chat_openai()
 ```
 
 

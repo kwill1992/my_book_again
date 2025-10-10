@@ -20,6 +20,7 @@ book:
       chapters:
        - projects_hex.qmd
        - projects_openai.qmd
+       - rrl_dot_com.qmd
     - part: "Part 2"
       chapters:
        - summary.qmd
