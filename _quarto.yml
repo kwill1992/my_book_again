@@ -18,6 +18,7 @@ book:
        - hexwall.qmd
     - part: "Projects"
       chapters:
+       - projects_creation.qmd
        - projects_hex.qmd
        - projects_openai.qmd
        - rrl_dot_com.qmd
