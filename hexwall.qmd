@@ -27,3 +27,12 @@ png("~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png"
 hexwall("~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex", sticker_row_size = 4, sticker_width = 200)
 image_write(test, "~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png")
 dev.off()
+
+
+hex_table <- data.table
+```{r}
+library(data.table)
+hex_table <- data.table(read.csv("~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"))
+hex_table
+```
+

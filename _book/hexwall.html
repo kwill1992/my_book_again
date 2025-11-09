@@ -199,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects_creation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -323,6 +323,43 @@ Disabled features: fftw, ghostscript, x11</code></pre>
 </div>
 <p>source(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/hexwall.R”) # call hexwall function and assign to “test” # this sometimes get an error – try adjusting sticker_row_size test &lt;- hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/my_stickers”, sticker_row_size = 7, sticker_width = 200) test</p>
 <p>png(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex”, sticker_row_size = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) dev.off()</p>
+<p>hex_table &lt;- data.table</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'data.table'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:purrr':
+
+    transpose</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>hex_table <span class="ot">&lt;-</span> <span class="fu">data.table</span>(<span class="fu">read.csv</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
+incomplete final line found by readTableHeader on
+'~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv'</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>hex_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      Name    Type Downloaded Added_To_Hexwall Official.
+    &lt;char&gt;  &lt;char&gt;     &lt;char&gt;           &lt;char&gt;    &lt;char&gt;
+1: Rkaggle Package          Y                Y         Y
+2:     RRL Company          Y                Y         N
+3: Leaflet Package          N                N         N
+                                             Source                 Notes
+                                             &lt;char&gt;                &lt;char&gt;
+1:        https://github.com/benyamindsmith/RKaggle                      
+2:                                         Selfmade                      
+3: https://r-graph-gallery.com/package/leaflet.html No official hex image
+   Last_Update
+        &lt;char&gt;
+1:     11/9/25
+2:     Unknown
+3:     11/9/25</code></pre>
+</div>
+</div>
 
 
 </section>
@@ -734,8 +771,8 @@ Disabled features: fftw, ghostscript, x11</code></pre>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./projects_creation.html" class="pagination-link" aria-label="projects_creation">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./projects_creation.html" class="pagination-link" aria-label="Project Title">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
