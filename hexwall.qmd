@@ -9,6 +9,7 @@
 library(knitr)
 library(tidyverse)
 library(data.table)
+library(DT)
 ```
 
 
@@ -46,10 +47,10 @@ It works within R, but not in Quarto when rendered.
 
 ```{r}
 library(data.table)
-hex_table <- data.table(read.csv("~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"))
+hex_table <- datatable(read.csv("~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"))
 hex_table
 
-hex_table_as_tibble <- as_tibble(hex_table)
-hex_table_as_tibble
+#hex_table_as_tibble <- as_tibble(hex_table)
+#hex_table_as_tibble
 ```
 
