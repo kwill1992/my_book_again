@@ -243,8 +243,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepts</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
       </ul>
@@ -275,9 +281,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#shiny-app-for-creating-hex" id="toc-shiny-app-for-creating-hex" class="nav-link" data-scroll-target="#shiny-app-for-creating-hex">Shiny App for creating hex</a></li>
   </ul></li>
-  <li><a href="#load-hexwall.r-function" id="toc-load-hexwall.r-function" class="nav-link" data-scroll-target="#load-hexwall.r-function"><span class="header-section-number">4.2</span> load hexwall.R function</a></li>
-  <li><a href="#fix---data.table-is-not-working-properly-needs-to-be-fixed" id="toc-fix---data.table-is-not-working-properly-needs-to-be-fixed" class="nav-link" data-scroll-target="#fix---data.table-is-not-working-properly-needs-to-be-fixed"><span class="header-section-number">5</span> FIX - data.table is not working properly – needs to be fixed</a></li>
-  <li><a href="#fix---data.table-giving-a-warning-about-reading-in-last-line" id="toc-fix---data.table-giving-a-warning-about-reading-in-last-line" class="nav-link" data-scroll-target="#fix---data.table-giving-a-warning-about-reading-in-last-line"><span class="header-section-number">6</span> FIX - data.table giving a warning about reading in last line</a></li>
+  <li><a href="#fix---get-all-of-these-downloaded" id="toc-fix---get-all-of-these-downloaded" class="nav-link" data-scroll-target="#fix---get-all-of-these-downloaded"><span class="header-section-number">5</span> FIX - get all of these downloaded</a>
+  <ul class="collapse">
+  <li><a href="#load-hexwall.r-function" id="toc-load-hexwall.r-function" class="nav-link" data-scroll-target="#load-hexwall.r-function"><span class="header-section-number">5.1</span> load hexwall.R function</a></li>
+  </ul></li>
+  <li><a href="#fix---data.table-is-not-working-properly-needs-to-be-fixed" id="toc-fix---data.table-is-not-working-properly-needs-to-be-fixed" class="nav-link" data-scroll-target="#fix---data.table-is-not-working-properly-needs-to-be-fixed"><span class="header-section-number">6</span> FIX - data.table is not working properly – needs to be fixed</a></li>
+  <li><a href="#fix---data.table-giving-a-warning-about-reading-in-last-line" id="toc-fix---data.table-giving-a-warning-about-reading-in-last-line" class="nav-link" data-scroll-target="#fix---data.table-giving-a-warning-about-reading-in-last-line"><span class="header-section-number">7</span> FIX - data.table giving a warning about reading in last line</a></li>
   </ul>
 </nav>
     </div>
@@ -310,8 +319,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="https://connect.thinkr.fr/hexmake/" class="uri">https://connect.thinkr.fr/hexmake/</a></p>
 </section>
 </section>
-<section id="load-hexwall.r-function" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="load-hexwall.r-function"><span class="header-section-number">4.2</span> load hexwall.R function</h2>
+<section id="fix---get-all-of-these-downloaded" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> FIX - get all of these downloaded</h1>
+<p>https://github.com/rstudio/hex-stickers</p>
+<section id="load-hexwall.r-function" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="load-hexwall.r-function"><span class="header-section-number">5.1</span> load hexwall.R function</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/hexwall.R"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -337,13 +349,14 @@ Disabled features: fftw, ghostscript, x11</code></pre>
 <p>png(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex”, sticker_row_size = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) dev.off()</p>
 <p>hex_table &lt;- data.table</p>
 </section>
-<section id="fix---data.table-is-not-working-properly-needs-to-be-fixed" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> FIX - data.table is not working properly – needs to be fixed</h1>
+</section>
+<section id="fix---data.table-is-not-working-properly-needs-to-be-fixed" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> FIX - data.table is not working properly – needs to be fixed</h1>
 <p>It seems to be reading, but not displaying in data.table format correctly.<br>
 It works within R, but not in Quarto when rendered.</p>
 </section>
-<section id="fix---data.table-giving-a-warning-about-reading-in-last-line" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> FIX - data.table giving a warning about reading in last line</h1>
+<section id="fix---data.table-giving-a-warning-about-reading-in-last-line" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> FIX - data.table giving a warning about reading in last line</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>hex_table <span class="ot">&lt;-</span> <span class="fu">datatable</span>(<span class="fu">read.csv</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -354,8 +367,8 @@ incomplete final line found by readTableHeader on
 </div>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>hex_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-3fb8f8897568a3b69016" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-3fb8f8897568a3b69016">{"x":{"filter":"none","vertical":false,"data":[["1","2","3"],["Rkaggle","RRL","Leaflet"],["Package","Company","Package"],["Y","Y","N"],["Y","Y","N"],["Y","N","N"],["https://github.com/benyamindsmith/RKaggle","Selfmade","https://r-graph-gallery.com/package/leaflet.html"],["","","No official hex image"],["11/9/25","Unknown","11/9/25"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Name<\/th>\n      <th>Type<\/th>\n      <th>Downloaded<\/th>\n      <th>Added_To_Hexwall<\/th>\n      <th>Official.<\/th>\n      <th>Source<\/th>\n      <th>Notes<\/th>\n      <th>Last_Update<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Name","targets":1},{"name":"Type","targets":2},{"name":"Downloaded","targets":3},{"name":"Added_To_Hexwall","targets":4},{"name":"Official.","targets":5},{"name":"Source","targets":6},{"name":"Notes","targets":7},{"name":"Last_Update","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-330fe375bfc457709712" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-330fe375bfc457709712">{"x":{"filter":"none","vertical":false,"data":[["1","2","3"],["Rkaggle","RRL","Leaflet"],["Package","Company","Package"],["Y","Y","N"],["Y","Y","N"],["Y","N","N"],["https://github.com/benyamindsmith/RKaggle","Selfmade","https://r-graph-gallery.com/package/leaflet.html"],["","","No official hex image"],["11/9/25","Unknown","11/9/25"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Name<\/th>\n      <th>Type<\/th>\n      <th>Downloaded<\/th>\n      <th>Added_To_Hexwall<\/th>\n      <th>Official.<\/th>\n      <th>Source<\/th>\n      <th>Notes<\/th>\n      <th>Last_Update<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Name","targets":1},{"name":"Type","targets":2},{"name":"Downloaded","targets":3},{"name":"Added_To_Hexwall","targets":4},{"name":"Official.","targets":5},{"name":"Source","targets":6},{"name":"Notes","targets":7},{"name":"Last_Update","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#hex_table_as_tibble &lt;- as_tibble(hex_table)</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">#hex_table_as_tibble</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>

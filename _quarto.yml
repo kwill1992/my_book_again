@@ -24,6 +24,7 @@ book:
        - rrl_dot_com.qmd
     - part: "Part 2"
       chapters:
+       - concepts.qmd
        - summary.qmd
     - references.qmd
     - errors.qmd

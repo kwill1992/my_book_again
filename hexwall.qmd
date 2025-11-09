@@ -12,6 +12,9 @@ library(data.table)
 library(DT)
 ```
 
+# FIX - get all of these downloaded  
+https://github.com/rstudio/hex-stickers  
+
 
 ## load hexwall.R function
 ```{r}
