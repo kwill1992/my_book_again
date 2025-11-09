@@ -139,12 +139,12 @@
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "9  Summary",
+    "title": "10  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
       "Part 2",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
@@ -220,6 +220,61 @@
     "crumbs": [
       "Projects",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Project Title</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html",
+    "href": "concepts.html",
+    "title": "9  Concepts",
+    "section": "",
+    "text": "9.1 data.table vs DT\nThe data.table package is a powerful R package for data manipulation and aggregation, known for its speed and efficiency with large datasets. It provides an enhanced version of data frames with additional features like fast grouping, indexing, and in-place updates.\nOn the other hand, DT is an R package that provides an interface to the JavaScript library DataTables. It is primarily used for creating interactive tables in R Markdown documents and Shiny applications. DT allows users to create sortable, searchable, and paginated tables with ease, enhancing the user experience when working with tabular data in web applications.",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#data.table-vs-dt",
+    "href": "concepts.html#data.table-vs-dt",
+    "title": "9  Concepts",
+    "section": "",
+    "text": "for a quarto document and output as a website, use DT for a data table.",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#link-to-kaggle-datasets-to-downloaedd-data-directly-into-r-using-the-kaggle-api",
+    "href": "concepts.html#link-to-kaggle-datasets-to-downloaedd-data-directly-into-r-using-the-kaggle-api",
+    "title": "9  Concepts",
+    "section": "9.2 Link to kaggle datasets to downloaedd data directly into R using the kaggle API",
+    "text": "9.2 Link to kaggle datasets to downloaedd data directly into R using the kaggle API\nlibrary(RKaggle) # for interacting with Kaggle API)\nusing RKaggle to download the dataset from Kaggle\nExample:\nsuperstore_dataset &lt;- get_dataset(“vivek468/superstore-dataset-final”)\ngithub for RKaggle:\nhttps://github.com/benyamindsmith/RKaggle",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#link-to-kaggle-datasets-to-downloaded-data-directly-into-r-using-the-kaggle-api",
+    "href": "concepts.html#link-to-kaggle-datasets-to-downloaded-data-directly-into-r-using-the-kaggle-api",
+    "title": "9  Concepts",
+    "section": "9.2 Link to kaggle datasets to downloaded data directly into R using the kaggle API",
+    "text": "9.2 Link to kaggle datasets to downloaded data directly into R using the kaggle API\nlibrary(RKaggle) # for interacting with Kaggle API)\nusing RKaggle to download the dataset from Kaggle\nExample:\nsuperstore_dataset &lt;- get_dataset(“vivek468/superstore-dataset-final”)\ngithub for RKaggle:\nhttps://github.com/benyamindsmith/RKaggle",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#leaflet",
+    "href": "concepts.html#leaflet",
+    "title": "9  Concepts",
+    "section": "9.3 Leaflet",
+    "text": "9.3 Leaflet\nThe leaflet package in R is a powerful tool for creating interactive maps. It allows users to visualize spatial data with various layers, markers, and pop-ups. The package is built on top of the Leaflet JavaScript library, providing a user-friendly interface for R users to create dynamic maps that can be embedded in R Markdown documents, Shiny applications, or viewed in RStudio. With leaflet, users can easily add tiles, polygons, and other geographical features to their maps, making it a versatile choice for geospatial data visualization.\nhttps://rstudio.github.io/leaflet/index.html\nhttps://r-charts.com/spatial/interactive-maps-leaflet/\nhttps://r-graph-gallery.com/package/leaflet.html\nhttps://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html https://leafletjs.com/reference.html\nhttps://www.geeksforgeeks.org/r-language/leaflet-package-in-r/\nhttps://www.jla-data.net/eng/leaflet-in-r-tips-and-tricks/",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Concepts</span>"
     ]
   }
 ]
