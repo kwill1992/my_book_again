@@ -6,6 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Your Name">
+<meta name="dcterms.date" content="2024-06-10">
 
 <title>5&nbsp; Creating Projects – my_book_again</title>
 <style>
@@ -83,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects_creation.html">Projects</a></li><li class="breadcrumb-item"><a href="./projects_creation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects_creation.html">Projects</a></li><li class="breadcrumb-item"><a href="./projects_creation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -164,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects_creation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,13 +232,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#setting-up-version-control-with-git" id="toc-setting-up-version-control-with-git" class="nav-link" data-scroll-target="#setting-up-version-control-with-git">Setting Up Version Control with Git</a></li>
   <li><a href="#add-starting-files" id="toc-add-starting-files" class="nav-link" data-scroll-target="#add-starting-files">add starting files</a></li>
   <li><a href="#add-data-folder" id="toc-add-data-folder" class="nav-link" data-scroll-target="#add-data-folder">add data folder</a></li>
+  <li><a href="#fixing-and-updating-readme.md-file-with-github-info" id="toc-fixing-and-updating-readme.md-file-with-github-info" class="nav-link" data-scroll-target="#fixing-and-updating-readme.md-file-with-github-info">fixing and updating README.md file with github info</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects_creation.html">Projects</a></li><li class="breadcrumb-item"><a href="./projects_creation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects_creation.html">Projects</a></li><li class="breadcrumb-item"><a href="./projects_creation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Projects</span></h1>
 </div>
@@ -245,7 +248,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Your Name </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 10, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -272,6 +287,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="add-data-folder" class="level3">
 <h3 class="anchored" data-anchor-id="add-data-folder">add data folder</h3>
 <p>usethis::use_data_raw() # for raw data under “data-raw” usethis::use_directory(“DATA”) # for processed data under “data”</p>
+</section>
+<section id="fixing-and-updating-readme.md-file-with-github-info" class="level3">
+<h3 class="anchored" data-anchor-id="fixing-and-updating-readme.md-file-with-github-info">fixing and updating README.md file with github info</h3>
+<p>When README.md file was first created, it does not render properly on GitHub.<br>
+To fix this, follow these steps:<br>
+1. Open README.md file in RStudio.<br>
+2. Add the following YAML header at the top of the file:<br>
+— title: “Project Title” #optional author: “Your Name” # optional date: “2024-06-10” #optional output: github_document — 3. Save the file. 4. In console, run the following command to render the README.md file: rmarkdown::render(“README.md”) 5. Commit and push the changes to GitHub. This will update the README.md file to render properly on GitHub with the specified title, author, and date.<br>
+You will need to render the README.md file each time you make changes to it.</p>
 
 
 </section>

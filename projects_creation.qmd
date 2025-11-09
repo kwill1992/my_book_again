@@ -39,3 +39,23 @@ usethis::use_r("tidy")        # for R scripts under "R" folder
 usethis::use_data_raw()       # for raw data under "data-raw"
 usethis::use_directory("DATA")  # for processed data under "data"
 
+
+### fixing and updating README.md file with github info  
+When README.md file was first created, it does not render properly on GitHub.  
+To fix this, follow these steps:  
+1. Open README.md file in RStudio.  
+2. Add the following YAML header at the top of the file:  
+---
+title: "Project Title" #optional
+author: "Your Name" # optional 
+date: "2024-06-10" #optional
+output: github_document
+---
+3. Save the file.
+4. In console, run the following command to render the README.md file:
+rmarkdown::render("README.md")
+5. Commit and push the changes to GitHub.
+This will update the README.md file to render properly on GitHub with the specified title, author, and date.  
+You will need to render the README.md file each time you make changes to it.
+
+
