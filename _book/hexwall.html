@@ -266,6 +266,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#shiny-app-for-creating-hex" id="toc-shiny-app-for-creating-hex" class="nav-link" data-scroll-target="#shiny-app-for-creating-hex">Shiny App for creating hex</a></li>
   </ul></li>
   <li><a href="#load-hexwall.r-function" id="toc-load-hexwall.r-function" class="nav-link" data-scroll-target="#load-hexwall.r-function"><span class="header-section-number">4.2</span> load hexwall.R function</a></li>
+  <li><a href="#fix---data.table-is-not-working-properly-needs-to-be-fixed" id="toc-fix---data.table-is-not-working-properly-needs-to-be-fixed" class="nav-link" data-scroll-target="#fix---data.table-is-not-working-properly-needs-to-be-fixed"><span class="header-section-number">5</span> FIX - data.table is not working properly – needs to be fixed</a></li>
+  <li><a href="#fix---data.table-giving-a-warning-about-reading-in-last-line" id="toc-fix---data.table-giving-a-warning-about-reading-in-last-line" class="nav-link" data-scroll-target="#fix---data.table-giving-a-warning-about-reading-in-last-line"><span class="header-section-number">6</span> FIX - data.table giving a warning about reading in last line</a></li>
   </ul>
 </nav>
     </div>
@@ -324,24 +326,23 @@ Disabled features: fftw, ghostscript, x11</code></pre>
 <p>source(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/hexwall.R”) # call hexwall function and assign to “test” # this sometimes get an error – try adjusting sticker_row_size test &lt;- hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/my_stickers”, sticker_row_size = 7, sticker_width = 200) test</p>
 <p>png(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex”, sticker_row_size = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) dev.off()</p>
 <p>hex_table &lt;- data.table</p>
+</section>
+<section id="fix---data.table-is-not-working-properly-needs-to-be-fixed" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> FIX - data.table is not working properly – needs to be fixed</h1>
+<p>It seems to be reading, but not displaying in data.table format correctly.<br>
+It works within R, but not in Quarto when rendered.</p>
+</section>
+<section id="fix---data.table-giving-a-warning-about-reading-in-last-line" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> FIX - data.table giving a warning about reading in last line</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'data.table'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following object is masked from 'package:purrr':
-
-    transpose</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>hex_table <span class="ot">&lt;-</span> <span class="fu">data.table</span>(<span class="fu">read.csv</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>hex_table <span class="ot">&lt;-</span> <span class="fu">data.table</span>(<span class="fu">read.csv</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
 incomplete final line found by readTableHeader on
 '~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv'</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>hex_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>hex_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      Name    Type Downloaded Added_To_Hexwall Official.
     &lt;char&gt;  &lt;char&gt;     &lt;char&gt;           &lt;char&gt;    &lt;char&gt;
@@ -358,6 +359,16 @@ incomplete final line found by readTableHeader on
 1:     11/9/25
 2:     Unknown
 3:     11/9/25</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>hex_table_as_tibble <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(hex_table)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>hex_table_as_tibble</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 8
+  Name    Type    Downloaded Added_To_Hexwall Official. Source Notes Last_Update
+  &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;      &lt;chr&gt;            &lt;chr&gt;     &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;      
+1 Rkaggle Package Y          Y                Y         https… ""    11/9/25    
+2 RRL     Company Y          Y                N         Selfm… ""    Unknown    
+3 Leaflet Package N          N                N         https… "No … 11/9/25    </code></pre>
 </div>
 </div>
 
