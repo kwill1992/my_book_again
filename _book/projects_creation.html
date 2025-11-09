@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; projects_creation – my_book_again</title>
+<title>5&nbsp; Creating Projects – my_book_again</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -221,15 +221,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#creating-a-new-project" id="toc-creating-a-new-project" class="nav-link active" data-scroll-target="#creating-a-new-project">Creating a New Project</a></li>
+  <li><a href="#setting-up-version-control-with-git" id="toc-setting-up-version-control-with-git" class="nav-link" data-scroll-target="#setting-up-version-control-with-git">Setting Up Version Control with Git</a></li>
+  <li><a href="#add-starting-files" id="toc-add-starting-files" class="nav-link" data-scroll-target="#add-starting-files">add starting files</a></li>
+  <li><a href="#add-data-folder" id="toc-add-data-folder" class="nav-link" data-scroll-target="#add-data-folder">add data folder</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects_creation.html">Projects</a></li><li class="breadcrumb-item"><a href="./projects_creation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">projects_creation</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Projects</span></h1>
 </div>
 
 
@@ -246,8 +255,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="creating-a-new-project" class="level3">
+<h3 class="anchored" data-anchor-id="creating-a-new-project">Creating a New Project</h3>
+<p>To create a new project, follow these steps: Make this your working directory: ~/Documents/r-studio-and-git</p>
+<p>In console: library(usethis)</p>
+<p>usethis::create_project(“~/Documents/r-studio-and-git/YOUR-PROJECT-NAME”) This will create a new directory for your project and open it in RStudio. It will also create a default R project file (.Rproj) for you. It will also create a readme file for you. It will also create a .gitignore file for you.</p>
+</section>
+<section id="setting-up-version-control-with-git" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-version-control-with-git">Setting Up Version Control with Git</h3>
+<p>To set up version control with Git for your new project, follow these steps: In console: usethis::use_git() This will initialize a Git repository in your project directory. It will also create a .git directory to track changes. It will also make an initial commit with the existing files in your project. ### Connecting to GitHub To connect your local Git repository to a remote repository on GitHub, follow these steps: First, create a new repository on GitHub without a README, .gitignore, or license. Then, in console: usethis::use_github() This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub. ### Summary You have now created a new R project, set up version control with Git, and connected it to a remote repository on GitHub. You can now start working on your project and use Git to track changes and collaborate with others.</p>
+</section>
+<section id="add-starting-files" class="level3">
+<h3 class="anchored" data-anchor-id="add-starting-files">add starting files</h3>
+<p>usethis::use_r(“import”) # for R scripts under “R” folder usethis::use_r(“tidy”) # for R scripts under “R” folder</p>
+</section>
+<section id="add-data-folder" class="level3">
+<h3 class="anchored" data-anchor-id="add-data-folder">add data folder</h3>
+<p>usethis::use_data_raw() # for raw data under “data-raw” usethis::use_directory(“DATA”) # for processed data under “data”</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
