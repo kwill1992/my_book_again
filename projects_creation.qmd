@@ -1,4 +1,4 @@
-# Creating Projects
+# Projects - Creating Projects
 
 ### Creating a New Project
 To create a new project, follow these steps:

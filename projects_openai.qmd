@@ -1,6 +1,5 @@
 # Projects - OpenAI
 
-
 ## use ellmer package
 
 ```{r}
@@ -8,17 +7,10 @@ library(ellmer)
 #chat <- chat_openai()
 ```
 
+Sys.setenv(OPENAI_API_KEY = '\<your key here')
 
+#\> Using model = "gpt-4.1". chat\$chat(" What is the difference between a tibble and a data frame? Answer with a bulleted list ")
 
-Sys.setenv(OPENAI_API_KEY = '<your key here')
-
-
-#> Using model = "gpt-4.1".
-chat$chat("
-  What is the difference between a tibble and a data frame?
-  Answer with a bulleted list
-")
-
-chat$chat("Who created R?", echo = FALSE)
+chat\$chat("Who created R?", echo = FALSE)
 
 ## get prompt working with openai
