@@ -15,7 +15,6 @@ book:
       chapters: 
        - meat.qmd
        - why_me.qmd
-       - hexwall.qmd
     - part: "Projects"
       chapters:
        - projects_creation.qmd

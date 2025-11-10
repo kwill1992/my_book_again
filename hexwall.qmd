@@ -8,7 +8,7 @@
 ```{r setup, include=FALSE}
 library(knitr)
 library(tidyverse)
-library(data.table)
+#library(data.table)
 library(DT)
 ```
 
@@ -49,7 +49,7 @@ It works within R, but not in Quarto when rendered.
 # FIX - data.table giving a warning about reading in last line  
 
 ```{r}
-library(data.table)
+#library(data.table)
 hex_table <- datatable(read.csv("~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"))
 hex_table
 

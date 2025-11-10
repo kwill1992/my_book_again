@@ -1,0 +1,225 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my_book_again",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 more\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#more",
+    "href": "intro.html#more",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "more a\n\n\nmore b\n\n\nmore c",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#less",
+    "href": "intro.html#less",
+    "title": "1  Introduction",
+    "section": "1.2 less",
+    "text": "1.2 less",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#true",
+    "href": "intro.html#true",
+    "title": "1  Introduction",
+    "section": "1.3 true",
+    "text": "1.3 true\n\nture z\n\ntrue za\n\n\n\nffg",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#qwgwe",
+    "href": "intro.html#qwgwe",
+    "title": "1  Introduction",
+    "section": "1.4 qwgwe=====",
+    "text": "1.4 qwgwe=====\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "meat.html",
+    "href": "meat.html",
+    "title": "2  Meat",
+    "section": "",
+    "text": "2.1 this is the meat of things",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
+    ]
+  },
+  {
+    "objectID": "meat.html#this-is-the-meat-of-things",
+    "href": "meat.html#this-is-the-meat-of-things",
+    "title": "2  Meat",
+    "section": "",
+    "text": "this is not the meat of things",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Meat</span>"
+    ]
+  },
+  {
+    "objectID": "why_me.html",
+    "href": "why_me.html",
+    "title": "3  why_me",
+    "section": "",
+    "text": "3.1 getting harder b bb",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>why_me</span>"
+    ]
+  },
+  {
+    "objectID": "projects_creation.html",
+    "href": "projects_creation.html",
+    "title": "4  Projects - Creating Projects2",
+    "section": "",
+    "text": "Creating a New Project\nTo create a new project, follow these steps: Make this your working directory: ~/Documents/r-studio-and-git\nIn console: library(usethis)\nusethis::create_project(“~/Documents/r-studio-and-git/YOUR-PROJECT-NAME”) This will create a new directory for your project and open it in RStudio. It will also create a default R project file (.Rproj) for you. It will also create a readme file for you. It will also create a .gitignore file for you.\n\n\nSetting Up Version Control with Git\nTo set up version control with Git for your new project, follow these steps: In console: usethis::use_git() This will initialize a Git repository in your project directory. It will also create a .git directory to track changes. It will also make an initial commit with the existing files in your project. ### Connecting to GitHub To connect your local Git repository to a remote repository on GitHub, follow these steps: First, create a new repository on GitHub without a README, .gitignore, or license. Then, in console: usethis::use_github() This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub. ### Summary You have now created a new R project, set up version control with Git, and connected it to a remote repository on GitHub. You can now start working on your project and use Git to track changes and collaborate with others.\n\n\nadd starting files\nusethis::use_r(“import”) # for R scripts under “R” folder usethis::use_r(“tidy”) # for R scripts under “R” folder\n\n\nadd data folder\nusethis::use_data_raw() # for raw data under “data-raw” usethis::use_directory(“DATA”) # for processed data under “data”\n\n\nfixing and updating README.md file with github info\nWhen README.md file was first created, it does not render properly on GitHub.\nTo fix this, follow these steps:\n1. Open README.md file in RStudio.\n2. Add the following YAML header at the top of the file:\n— title: “Project Title” #optional author: “Your Name” # optional date: “2024-06-10” #optional output: github_document — 3. Save the file. 4. In console, run the following command to render the README.md file: rmarkdown::render(“README.md”) 5. Commit and push the changes to GitHub. This will update the README.md file to render properly on GitHub with the specified title, author, and date.\nYou will need to render the README.md file each time you make changes to it.",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project Title</span>"
+    ]
+  },
+  {
+    "objectID": "projects_hex.html",
+    "href": "projects_hex.html",
+    "title": "5  Projects - Hex2",
+    "section": "",
+    "text": "Get Hexwall working\nGet Hexwall working with maps\nMake a RRL Hex with Shiny App\nMake a RRL Hex with hexSticker package\nGet a Shiny Hexwall working\nGet a Shiny Hexwall working with maps\nGet a Shiny Hexwall working with multiple map choices\nGet an updated Hexwall working with an input of a hex",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects - Hex2</span>"
+    ]
+  },
+  {
+    "objectID": "projects_openai.html",
+    "href": "projects_openai.html",
+    "title": "6  Projects - OpenAI",
+    "section": "",
+    "text": "6.1 use ellmer package\nlibrary(ellmer)\n#chat &lt;- chat_openai()\nSys.setenv(OPENAI_API_KEY = ‘&lt;your key here’)\n#&gt; Using model = “gpt-4.1”. chat$chat(” What is the difference between a tibble and a data frame? Answer with a bulleted list “)\nchat$chat(“Who created R?”, echo = FALSE)",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Projects - OpenAI</span>"
+    ]
+  },
+  {
+    "objectID": "projects_openai.html#get-prompt-working-with-openai",
+    "href": "projects_openai.html#get-prompt-working-with-openai",
+    "title": "6  Projects - OpenAI",
+    "section": "6.2 get prompt working with openai",
+    "text": "6.2 get prompt working with openai",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Projects - OpenAI</span>"
+    ]
+  },
+  {
+    "objectID": "rrl_dot_com.html",
+    "href": "rrl_dot_com.html",
+    "title": "7  RRL.com Stuff",
+    "section": "",
+    "text": "As of 20251010\nwww.wordpress.com account to use is: User: kwill1992rrl which links to kwill1992@hotmail.com There is another one (at least one other), which is User: kwill1992 and links to kevin.williams@rrldataanalytics.com The kwill1992 one does not have any websites linked to it. The kwill1992rrl account has both the old one @ www.rrldataanalytics.com and the one in development at the numbered IP address.\nTo get to the linked sites at www.wordpress.com, go to “managed blogs” button and this will come up: https://wordpress.com/sites\nOnly one is default site at any given time. You still need to login with user account to edit each website. Each website has a “user” and “kwill1992” user. Different passwords for each for each website.",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>RRL.com Stuff</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html",
+    "href": "concepts.html",
+    "title": "8  Concepts",
+    "section": "",
+    "text": "8.1 data.table vs DT\nThe data.table package is a powerful R package for data manipulation and aggregation, known for its speed and efficiency with large datasets. It provides an enhanced version of data frames with additional features like fast grouping, indexing, and in-place updates.\nOn the other hand, DT is an R package that provides an interface to the JavaScript library DataTables. It is primarily used for creating interactive tables in R Markdown documents and Shiny applications. DT allows users to create sortable, searchable, and paginated tables with ease, enhancing the user experience when working with tabular data in web applications.",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#data.table-vs-dt",
+    "href": "concepts.html#data.table-vs-dt",
+    "title": "8  Concepts",
+    "section": "",
+    "text": "for a quarto document and output as a website, use DT for a data table.",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#link-to-kaggle-datasets-to-downloaded-data-directly-into-r-using-the-kaggle-api",
+    "href": "concepts.html#link-to-kaggle-datasets-to-downloaded-data-directly-into-r-using-the-kaggle-api",
+    "title": "8  Concepts",
+    "section": "8.2 Link to kaggle datasets to downloaded data directly into R using the kaggle API",
+    "text": "8.2 Link to kaggle datasets to downloaded data directly into R using the kaggle API\nlibrary(RKaggle) # for interacting with Kaggle API)\nusing RKaggle to download the dataset from Kaggle\nExample:\nsuperstore_dataset &lt;- get_dataset(“vivek468/superstore-dataset-final”)\ngithub for RKaggle:\nhttps://github.com/benyamindsmith/RKaggle",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "concepts.html#leaflet",
+    "href": "concepts.html#leaflet",
+    "title": "8  Concepts",
+    "section": "8.3 Leaflet",
+    "text": "8.3 Leaflet\nThe leaflet package in R is a powerful tool for creating interactive maps. It allows users to visualize spatial data with various layers, markers, and pop-ups. The package is built on top of the Leaflet JavaScript library, providing a user-friendly interface for R users to create dynamic maps that can be embedded in R Markdown documents, Shiny applications, or viewed in RStudio. With leaflet, users can easily add tiles, polygons, and other geographical features to their maps, making it a versatile choice for geospatial data visualization.\nhttps://rstudio.github.io/leaflet/index.html\nhttps://r-charts.com/spatial/interactive-maps-leaflet/\nhttps://r-graph-gallery.com/package/leaflet.html\nhttps://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html https://leafletjs.com/reference.html\nhttps://www.geeksforgeeks.org/r-language/leaflet-package-in-r/\nhttps://www.jla-data.net/eng/leaflet-in-r-tips-and-tricks/",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "9  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "errors.html",
+    "href": "errors.html",
+    "title": "Errors",
+    "section": "",
+    "text": "Github\n\nto fix a git push commit holding up\n\nrm .git/index.lock [in Terminal]",
+    "crumbs": [
+      "Errors"
+    ]
+  }
+]
