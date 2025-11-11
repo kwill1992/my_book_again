@@ -59,7 +59,7 @@
     "href": "hexwall.html#fix---data.table-giving-a-warning-about-reading-in-last-line",
     "title": "4  Hexwall",
     "section": "4.7 FIX - data.table giving a warning about reading in last line",
-    "text": "4.7 FIX - data.table giving a warning about reading in last line\n\n#library(data.table)\nhex_table &lt;- datatable(read.csv(\"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv\"))\n\nWarning in read.table(file = file, header = header, sep = sep, quote = quote, :\nincomplete final line found by readTableHeader on\n'~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv'\n\nhex_table\n\n\n\n\n#hex_table_as_tibble &lt;- as_tibble(hex_table)\n#hex_table_as_tibble",
+    "text": "4.7 FIX - data.table giving a warning about reading in last line\n\n#library(data.table)\nhex_table &lt;- datatable(read.csv(\"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv\"))\nhex_table\n\n\n\n\n#hex_table_as_tibble &lt;- as_tibble(hex_table)\n#hex_table_as_tibble",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"

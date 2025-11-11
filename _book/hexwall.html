@@ -209,7 +209,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects_creation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Projects - Creating Projects2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -371,19 +371,14 @@ It works within R, but not in Quarto when rendered.</p>
 <h2 data-number="4.7" class="anchored" data-anchor-id="fix---data.table-giving-a-warning-about-reading-in-last-line"><span class="header-section-number">4.7</span> FIX - data.table giving a warning about reading in last line</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#library(data.table)</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>hex_table <span class="ot">&lt;-</span> <span class="fu">datatable</span>(<span class="fu">read.csv</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
-incomplete final line found by readTableHeader on
-'~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv'</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>hex_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>hex_table <span class="ot">&lt;-</span> <span class="fu">datatable</span>(<span class="fu">read.csv</span>(<span class="st">"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv"</span>))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>hex_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-5a9efe6644f1b640695b" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5a9efe6644f1b640695b">{"x":{"filter":"none","vertical":false,"data":[["1","2","3"],["Rkaggle","RRL","Leaflet"],["Package","Company","Package"],["Y","Y","N"],["Y","Y","N"],["Y","N","N"],["https://github.com/benyamindsmith/RKaggle","Selfmade","https://r-graph-gallery.com/package/leaflet.html"],["N/A","N/A","No official hex image"],["11/9/25","Unknown","11/9/25"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Name<\/th>\n      <th>Type<\/th>\n      <th>Downloaded<\/th>\n      <th>Added_To_Hexwall<\/th>\n      <th>Official.<\/th>\n      <th>Source<\/th>\n      <th>Notes<\/th>\n      <th>Last_Update<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Name","targets":1},{"name":"Type","targets":2},{"name":"Downloaded","targets":3},{"name":"Added_To_Hexwall","targets":4},{"name":"Official.","targets":5},{"name":"Source","targets":6},{"name":"Notes","targets":7},{"name":"Last_Update","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-fc8fc424f9ae58132740" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-fc8fc424f9ae58132740">{"x":{"filter":"none","vertical":false,"data":[["1","2","3"],["Rkaggle","RRL","Leaflet"],["Package","Company","Package"],["Y","Y","N"],["Y","Y","N"],["Y","N","N"],["https://github.com/benyamindsmith/RKaggle","Selfmade","https://r-graph-gallery.com/package/leaflet.html"],["N/A","N/A","No official hex image"],["11/9/25","Unknown","11/9/25"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Name<\/th>\n      <th>Type<\/th>\n      <th>Downloaded<\/th>\n      <th>Added_To_Hexwall<\/th>\n      <th>Official.<\/th>\n      <th>Source<\/th>\n      <th>Notes<\/th>\n      <th>Last_Update<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Name","targets":1},{"name":"Type","targets":2},{"name":"Downloaded","targets":3},{"name":"Added_To_Hexwall","targets":4},{"name":"Official.","targets":5},{"name":"Source","targets":6},{"name":"Notes","targets":7},{"name":"Last_Update","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#hex_table_as_tibble &lt;- as_tibble(hex_table)</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">#hex_table_as_tibble</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#hex_table_as_tibble &lt;- as_tibble(hex_table)</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#hex_table_as_tibble</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -796,8 +791,8 @@ incomplete final line found by readTableHeader on
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./projects_creation.html" class="pagination-link" aria-label="Project Title">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./projects_creation.html" class="pagination-link" aria-label="Projects - Creating Projects2">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Projects - Creating Projects2</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
