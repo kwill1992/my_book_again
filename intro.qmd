@@ -7,14 +7,23 @@ See @knuth84 for additional discussion of literate programming.
 ```{r}
 1 + 1
 ```
+
 ## more
 
 ### more a
+
 ### more b
+
 ### more c
+
 ## less
+
 ## true
+
 ### ture z
+
 #### true za
+
 ### ffg
+
 ## qwgwe=====
