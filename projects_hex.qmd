@@ -1,4 +1,4 @@
-# Projects - Hex2
+# Projects - Hex
 
 
 - Get Hexwall working

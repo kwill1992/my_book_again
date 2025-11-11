@@ -1,4 +1,4 @@
-# Projects - Creating Projects2
+# Projects - Creating Projects
 
 ### Creating a New Project
 

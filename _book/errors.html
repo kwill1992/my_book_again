@@ -169,13 +169,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects_creation2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Projects - Creating Projects2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Projects - Creating Projects</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects_hex.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projects - Hex2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projects - Hex</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -238,6 +238,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#github" id="toc-github" class="nav-link active" data-scroll-target="#github">Github</a></li>
+  <li><a href="#render-to-pdf-if-using-html-widgets" id="toc-render-to-pdf-if-using-html-widgets" class="nav-link" data-scroll-target="#render-to-pdf-if-using-html-widgets">Render to PDF if using html widgets</a></li>
   </ul>
 </nav>
     </div>
@@ -269,6 +270,16 @@ ul.task-list li input[type="checkbox"] {
 <li>to fix a git push commit holding up
 <ul>
 <li>rm .git/index.lock [in Terminal]</li>
+</ul></li>
+</ul>
+</section>
+<section id="render-to-pdf-if-using-html-widgets" class="level3">
+<h3 class="anchored" data-anchor-id="render-to-pdf-if-using-html-widgets">Render to PDF if using html widgets</h3>
+<ul>
+<li>if rendering to PDF from HTML widgets (e.g., <code>leaflet</code>, <code>DT</code>), use the <code>webshot2</code> package
+<ul>
+<li>install with <code>install.packages("webshot2")</code></li>
+<li>ensure that <code>webshot2::install_phantomjs()</code> has been run once to install PhantomJS</li>
 </ul></li>
 </ul>
 

@@ -1,23 +1,23 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.1)  10 NOV 2025 19:29
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  10 NOV 2025 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **index.tex
 (./index.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2025/08/28 v3.47 KOMA-Script document class (report)
+Document Class: scrreprt 2025/09/09 v3.48 KOMA-Script document class (report)
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2025/08/28 v3.47 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2025/08/28 v3.47 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2025/08/28 v3.47 KOMA-Script package (file load hooks)
+Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2025/08/28 v3.47 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2025/08/28 v3.47 KOMA-Script package (logo)
+Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
 ))) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
@@ -25,7 +25,7 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
 )) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2025/08/28 v3.47 KOMA-Script package (handling toc-files)
+Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip49
 \scr@dte@tocline@numbox=\box53
 )
@@ -33,11 +33,11 @@ Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 143.
 Class scrreprt Info: File `scrsize11pt.clo' used instead of
-(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2706.
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2707.
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2025/08/28 v3.47 KOMA-Script font size class option (11pt)
+File: scrsize11pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (11pt)
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2025/08/28 v3.47 KOMA-Script package (type area)
+Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count271
 Package typearea Info: You've used standard option `letterpaper'.
@@ -66,7 +66,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1806.
+(typearea)              on input line 1807.
 )
 \c@part=\count272
 \c@chapter=\count273
@@ -77,49 +77,49 @@ Package typearea Info: These are the values describing the layout:
 \c@subparagraph=\count278
 \scr@dte@chapter@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 6079.
+(scrreprt)           for `\chapter on input line 6080.
 \scr@dte@section@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 6090.
+(scrreprt)           for `\section on input line 6091.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 6090.
+(scrreprt)           for `\section on input line 6091.
 \scr@dte@part@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 6099.
+(scrreprt)           for `\part on input line 6100.
 \scr@dte@subsection@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 6109.
+(scrreprt)           for `\subsection on input line 6110.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 6109.
+(scrreprt)           for `\subsection on input line 6110.
 \scr@dte@subsubsection@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 6119.
+(scrreprt)           for `\subsubsection on input line 6120.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 6119.
+(scrreprt)           for `\subsubsection on input line 6120.
 \scr@dte@paragraph@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 6130.
+(scrreprt)           for `\paragraph on input line 6131.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 6130.
+(scrreprt)           for `\paragraph on input line 6131.
 \scr@dte@subparagraph@maxnumwidth=\skip61
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 6140.
+(scrreprt)           for `\subparagraph on input line 6141.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 6140.
+(scrreprt)           for `\subparagraph on input line 6141.
 \abovecaptionskip=\skip62
 \belowcaptionskip=\skip63
 \c@pti@nb@sid@b@x=\box54
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 7347.
+(tocbasic)             for `lof' on input line 7348.
 \scr@dte@figure@maxnumwidth=\skip64
 \c@figure=\count279
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 7360.
+(tocbasic)             for `lot' on input line 7361.
 \scr@dte@table@maxnumwidth=\skip65
 \c@table=\count280
-Class scrreprt Info: Redefining `\numberline' on input line 7531.
+Class scrreprt Info: Redefining `\numberline' on input line 7532.
 \bibindent=\dimen148
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -128,7 +128,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -145,7 +145,7 @@ File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip66
 For additional information on amsmath, use the `?' option.
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -205,8 +205,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip67
 \multlinetaggap=\skip68
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -219,9 +219,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+Package: expl3 2025-10-24 L3 programming layer (loader) 
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count293
 \g__pdfannot_backend_int=\count294
 \g__pdfannot_backend_link_int=\count295
@@ -230,13 +230,13 @@ Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count296
 \l__fontspec_language_int=\count297
 \l__fontspec_strnum_int=\count298
@@ -252,7 +252,7 @@ Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpb_dim=\dimen159
 \l__fontspec_tmpc_dim=\dimen160
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
@@ -431,7 +431,7 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count310
 )
 \MT@toks=\toks23
@@ -473,7 +473,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen164
 \FrameSep=\dimen165
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip71
 \LTright=\skip72
 \LTpre=\skip73
@@ -512,7 +512,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count324
 \@thisrulewidth=\dimen179
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen180
 \ar@mcellbox=\box64
 \extrarowheight=\dimen181
@@ -1015,9 +1015,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 246.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/kevinwilliams/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-
-[1
+) [1
 
 
 
@@ -1026,8 +1024,6 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 251
 No file index.toc.
 \tf@toc=\write4
 \openout4 = `index.toc'.
-
-
 
 [2
 
@@ -1048,14 +1044,10 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 264.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 264.
-
-
 [3
 
 ]
 chapter 1.
-
-
 [4
 
 ]
@@ -1063,32 +1055,22 @@ part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 314.
-
-
 [5
 
 ]
 chapter 2.
-
-
 [6
 
 ]
 chapter 3.
-
-
 [7
 
 ]
 chapter 4.
-
-
 [8
 
 ]
 chapter 5.
-
-
 [9
 
 ]
@@ -1100,8 +1082,6 @@ Overfull \hbox (18.88861pt too wide) in paragraph at lines 355--355
 
 File: hexwall_files/figure-pdf/hexwall-1.png Graphic file (type bmp)
 <hexwall_files/figure-pdf/hexwall-1.png>
-
-
 [10
 
 ]
@@ -1124,12 +1104,8 @@ Overfull \hbox (170.34245pt too wide) in paragraph at lines 382--387
 \TU/lmr/m/n/10.95 = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”)
  []
 
-
-
 [11]
 chapter 7.
-
-
 [12
 
 ]
@@ -1150,8 +1126,8 @@ Overfull \hbox (542.02473pt too wide) in paragraph at lines 421--421
  []
 
 
-Overfull \hbox (340.81848pt too wide) in paragraph at lines 425--425
-[]\TU/lmtt/m/n/10.95 file:////private/var/folders/sf/d810pt617h181j949xmh0yvh0000gn/T/RtmpESujxC/file2b6920ecc47c/widget2b691857b9c7.html screenshot completed[] 
+Overfull \hbox (335.06976pt too wide) in paragraph at lines 425--425
+[]\TU/lmtt/m/n/10.95 file:////private/var/folders/sf/d810pt617h181j949xmh0yvh0000gn/T/Rtmp3DvtAd/file32ad1e97e20a/widget32ad5790e37.html screenshot completed[] 
  []
 
 File: hexwall_files/figure-pdf/unnamed-chunk-1-1.pdf Graphic file (type pdf)
@@ -1161,80 +1137,8 @@ Overfull \hbox (10.9531pt too wide) in paragraph at lines 427--428
 [][] 
  []
 
-
-
 [13
 
-]
-
-[14]
-
-[15]
+] [14] [15]
 part II.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 436.
-
-
-[16
-
-]
-chapter 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--453
-[]\TU/lmr/m/n/10.95 usethis::create_project(“~/Documents/r-studio-and-git/YOUR-PROJECT-NAME”) This
- []
-
-
-
-[17
-
-]
-
-[18]
-chapter 10.
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--514
-[]\TU/lmr/m/n/10.95 usethis::create_project(“~/Documents/r-studio-and-git/YOUR-PROJECT-NAME”) This
- []
-
-
-
-[19
-
-]
-Overfull \hbox (9627.45613pt too wide) in paragraph at lines 546--552
-\TU/lmr/m/n/10.95 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBnAEEAdwBBAEQAVQBBAE0AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEIAMABBAEcAawBBAGQAQQBCAHMAQQBHAFUAQQBPAGcAQQBnAEEAQwBJAEEAVQBBAEIAeQBBAEcAOABBAGEAZwBCAGwAQQBHAE0AQQBkAEEAQQBnAEEARgBRAEEAYQBRAEIAMABBAEcAdwBBAFoAUQBBAGkAQQBDAEEAQQBJAHcAQgB2AEEASABBAEEAZABBAEIAcABBAEcAOABBAGIAZwBCAGgAQQBHAHcAQQBDAGcAQgBoAEEASABVAEEAZABBAEIAbwBBAEcAOABBAGMAZwBBADYAQQBDAEEAQQBJAGcAQgBaAEEARwA4AEEAZABRAEIAeQBBAEMAQQBBAFQAZwBCAGgAQQBHADAAQQBaAFEAQQBpAEEAQwBBAEEASQB3AEEAZwBBAEcAOABBAGMAQQBCADAAQQBHAGsAQQBiAHcAQgB1AEEARwBFAEEAYgBBAEEAZwBBAEEAbwBBAFoAQQBCAGgAQQBIAFEAQQBaAFEAQQA2AEEAQwBBAEEASQBnAEEAeQBBAEQAQQBBAE0AZwBBADAAQQBDADAAQQBNAEEAQQAyAEEAQwAwAEEATQBRAEEAdwBBAEMASQBBAEkAQQBBAGoAQQBHADgAQQBjAEEAQgAwAEEARwBrAEEAYgB3AEIAdQBBAEcARQBBAGIAQQBBAEsAQQBHADgAQQBkAFEAQgAwAEEASABBAEEAZABRAEIAMABBAEQAbwBBAEkAQQBCAG4AQQBHAGsAQQBkAEEAQgBvAEEASABVAEEAWQBnAEIAZgBBAEcAUQBBAGIAdwBCAGoAQQBIAFUAQQBiAFEAQgBsAEEARwA0AEEAZABBAEEASwBBAEMAMABBAEwAUQBBAHQAQQBBAD0APQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-
- []
-
-
-
-[20]
-chapter 11.
-
-
-[21
-
-]
-chapter 12.
-
-
-! Missing number, treated as zero.
-<to be read again> 
-                   *
-l.614 \chapter
-              {RRL.com Stuff}\label{rrl.com-stuff}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
- 
-Here is how much of TeX's memory you used:
- 24219 strings out of 470396
- 471570 string characters out of 5488344
- 1173763 words of memory out of 5000000
- 52275 multiletter control sequences out of 15000+600000
- 633256 words of font info for 90 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 108i,8n,114p,11227b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on index.pdf (21 pages).
+Package scrkbase Info: You've told me to use the font sel

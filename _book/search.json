@@ -1,0 +1,133 @@
+[
+  {
+    "objectID": "hexwall.html",
+    "href": "hexwall.html",
+    "title": "4  Hexwall",
+    "section": "",
+    "text": "4.1 Hex file resources",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#hex-file-resources",
+    "href": "hexwall.html#hex-file-resources",
+    "title": "4  Hexwall",
+    "section": "",
+    "text": "Shiny App for creating hex\nhttps://connect.thinkr.fr/hexmake/",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#load-hexwall.r-function",
+    "href": "hexwall.html#load-hexwall.r-function",
+    "title": "4  Hexwall",
+    "section": "4.3 load hexwall.R function",
+    "text": "4.3 load hexwall.R function\n\nsource(\"~/Documents/r-studio-and-git/my_book_again/hexwall.R\")\n\nLinking to ImageMagick 6.9.13.29\nEnabled features: cairo, fontconfig, freetype, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fftw, ghostscript, x11\n\ntest &lt;- hexwall(\"~/Documents/r-studio-and-git/my_book_again/my_stickers\", sticker_row_size = 7, sticker_width = 200)\n\nWarning: `invoke()` was deprecated in purrr 1.0.0.\nℹ Please use `exec()` instead.\n\ntest",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#fix---get-all-of-these-downloaded",
+    "href": "hexwall.html#fix---get-all-of-these-downloaded",
+    "title": "4  Hexwall",
+    "section": "4.2 FIX - get all of these downloaded",
+    "text": "4.2 FIX - get all of these downloaded\nhttps://github.com/rstudio/hex-stickers",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#fix---data.table-is-not-working-properly-needs-to-be-fixed",
+    "href": "hexwall.html#fix---data.table-is-not-working-properly-needs-to-be-fixed",
+    "title": "4  Hexwall",
+    "section": "4.6 FIX - data.table is not working properly – needs to be fixed",
+    "text": "4.6 FIX - data.table is not working properly – needs to be fixed\nIt seems to be reading, but not displaying in data.table format correctly.\nIt works within R, but not in Quarto when rendered.",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#fix---data.table-giving-a-warning-about-reading-in-last-line",
+    "href": "hexwall.html#fix---data.table-giving-a-warning-about-reading-in-last-line",
+    "title": "4  Hexwall",
+    "section": "4.7 FIX - data.table giving a warning about reading in last line",
+    "text": "4.7 FIX - data.table giving a warning about reading in last line\n\n#library(data.table)\nhex_table &lt;- datatable(read.csv(\"~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv\"))\n\nWarning in read.table(file = file, header = header, sep = sep, quote = quote, :\nincomplete final line found by readTableHeader on\n'~/Documents/r-studio-and-git/my_book_again/my_stickers_data_list/hex_data.csv'\n\nhex_table\n\n\n\n\n#hex_table_as_tibble &lt;- as_tibble(hex_table)\n#hex_table_as_tibble",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "projects_creation.html",
+    "href": "projects_creation.html",
+    "title": "5  Projects - Creating Projects2",
+    "section": "",
+    "text": "Creating a New Project\nTo create a new project, follow these steps: Make this your working directory: ~/Documents/r-studio-and-git\nIn console: library(usethis)\nusethis::create_project(“~/Documents/r-studio-and-git/YOUR-PROJECT-NAME”) This will create a new directory for your project and open it in RStudio. It will also create a default R project file (.Rproj) for you. It will also create a readme file for you. It will also create a .gitignore file for you.\n\n\nSetting Up Version Control with Git\nTo set up version control with Git for your new project, follow these steps: In console: usethis::use_git() This will initialize a Git repository in your project directory. It will also create a .git directory to track changes. It will also make an initial commit with the existing files in your project. ### Connecting to GitHub To connect your local Git repository to a remote repository on GitHub, follow these steps: First, create a new repository on GitHub without a README, .gitignore, or license. Then, in console: usethis::use_github() This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub. ### Summary You have now created a new R project, set up version control with Git, and connected it to a remote repository on GitHub. You can now start working on your project and use Git to track changes and collaborate with others.\n\n\nadd starting files\nusethis::use_r(“import”) # for R scripts under “R” folder usethis::use_r(“tidy”) # for R scripts under “R” folder\n\n\nadd data folder\nusethis::use_data_raw() # for raw data under “data-raw” usethis::use_directory(“DATA”) # for processed data under “data”\n\n\nfixing and updating README.md file with github info\nWhen README.md file was first created, it does not render properly on GitHub.\nTo fix this, follow these steps:\n1. Open README.md file in RStudio.\n2. Add the following YAML header at the top of the file:\n— title: “Project Title” #optional author: “Your Name” # optional date: “2024-06-10” #optional output: github_document — 3. Save the file. 4. In console, run the following command to render the README.md file: rmarkdown::render(“README.md”) 5. Commit and push the changes to GitHub. This will update the README.md file to render properly on GitHub with the specified title, author, and date.\nYou will need to render the README.md file each time you make changes to it.",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Project Title</span>"
+    ]
+  },
+  {
+    "objectID": "projects_creation2.html",
+    "href": "projects_creation2.html",
+    "title": "6  Projects - Creating Projects",
+    "section": "",
+    "text": "Creating a New Project\nTo create a new project, follow these steps: Make this your working directory: ~/Documents/r-studio-and-git\nIn console: library(usethis)\nusethis::create_project(“~/Documents/r-studio-and-git/YOUR-PROJECT-NAME”) This will create a new directory for your project and open it in RStudio. It will also create a default R project file (.Rproj) for you. It will also create a readme file for you. It will also create a .gitignore file for you.\n\n\nSetting Up Version Control with Git\nTo set up version control with Git for your new project, follow these steps: In console: usethis::use_git() This will initialize a Git repository in your project directory. It will also create a .git directory to track changes. It will also make an initial commit with the existing files in your project. ### Connecting to GitHub To connect your local Git repository to a remote repository on GitHub, follow these steps: First, create a new repository on GitHub without a README, .gitignore, or license. Then, in console: usethis::use_github() This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub. ### Summary You have now created a new R project, set up version control with Git, and connected it to a remote repository on GitHub. You can now start working on your project and use Git to track changes and collaborate with others.\n\n\nadd starting files\nusethis::use_r(“import”) # for R scripts under “R” folder usethis::use_r(“tidy”) # for R scripts under “R” folder\n\n\nadd data folder\nusethis::use_data_raw() # for raw data under “data-raw” usethis::use_directory(“DATA”) # for processed data under “data”\n\n\nfixing and updating README.md file with github info\nWhen README.md file was first created, it does not render properly on GitHub.\nTo fix this, follow these steps:\n1. Open README.md file in RStudio.\n2. Add the following YAML header at the top of the file:\n31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBnAEEAdwBBAEQAVQBBAE0AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEIAMABBAEcAawBBAGQAQQBCAHMAQQBHAFUAQQBPAGcAQQBnAEEAQwBJAEEAVQBBAEIAeQBBAEcAOABBAGEAZwBCAGwAQQBHAE0AQQBkAEEAQQBnAEEARgBRAEEAYQBRAEIAMABBAEcAdwBBAFoAUQBBAGkAQQBDAEEAQQBJAHcAQgB2AEEASABBAEEAZABBAEIAcABBAEcAOABBAGIAZwBCAGgAQQBHAHcAQQBDAGcAQgBoAEEASABVAEEAZABBAEIAbwBBAEcAOABBAGMAZwBBADYAQQBDAEEAQQBJAGcAQgBaAEEARwA4AEEAZABRAEIAeQBBAEMAQQBBAFQAZwBCAGgAQQBHADAAQQBaAFEAQQBpAEEAQwBBAEEASQB3AEEAZwBBAEcAOABBAGMAQQBCADAAQQBHAGsAQQBiAHcAQgB1AEEARwBFAEEAYgBBAEEAZwBBAEEAbwBBAFoAQQBCAGgAQQBIAFEAQQBaAFEAQQA2AEEAQwBBAEEASQBnAEEAeQBBAEQAQQBBAE0AZwBBADAAQQBDADAAQQBNAEEAQQAyAEEAQwAwAEEATQBRAEEAdwBBAEMASQBBAEkAQQBBAGoAQQBHADgAQQBjAEEAQgAwAEEARwBrAEEAYgB3AEIAdQBBAEcARQBBAGIAQQBBAEsAQQBHADgAQQBkAFEAQgAwAEEASABBAEEAZABRAEIAMABBAEQAbwBBAEkAQQBCAG4AQQBHAGsAQQBkAEEAQgBvAEEASABVAEEAWQBnAEIAZgBBAEcAUQBBAGIAdwBCAGoAQQBIAFUAQQBiAFEAQgBsAEEARwA0AEEAZABBAEEASwBBAEMAMABBAEwAUQBBAHQAQQBBAD0APQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602\n\nSave the file.\nIn console, run the following command to render the README.md file: rmarkdown::render(“README.md”)\nCommit and push the changes to GitHub. This will update the README.md file to render properly on GitHub with the specified title, author, and date.\nYou will need to render the README.md file each time you make changes to it.",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Projects - Creating Projects</span>"
+    ]
+  },
+  {
+    "objectID": "projects_hex.html",
+    "href": "projects_hex.html",
+    "title": "7  Projects - Hex",
+    "section": "",
+    "text": "Get Hexwall working\nGet Hexwall working with maps\nMake a RRL Hex with Shiny App\nMake a RRL Hex with hexSticker package\nGet a Shiny Hexwall working\nGet a Shiny Hexwall working with maps\nGet a Shiny Hexwall working with multiple map choices\nGet an updated Hexwall working with an input of a hex",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Projects - Hex</span>"
+    ]
+  },
+  {
+    "objectID": "errors.html",
+    "href": "errors.html",
+    "title": "Errors",
+    "section": "",
+    "text": "Github\n\nto fix a git push commit holding up\n\nrm .git/index.lock [in Terminal]\n\n\n\n\nRender to PDF if using html widgets\n\nif rendering to PDF from HTML widgets (e.g., leaflet, DT), use the webshot2 package\n\ninstall with install.packages(\"webshot2\")\nensure that webshot2::install_phantomjs() has been run once to install PhantomJS",
+    "crumbs": [
+      "Errors"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#fix---getting-to-export-to-pdf",
+    "href": "hexwall.html#fix---getting-to-export-to-pdf",
+    "title": "4  Hexwall",
+    "section": "4.4 FIX - getting to export to PDF",
+    "text": "4.4 FIX - getting to export to PDF",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  },
+  {
+    "objectID": "hexwall.html#fix---getting-webshot-and-phantomjs-working",
+    "href": "hexwall.html#fix---getting-webshot-and-phantomjs-working",
+    "title": "4  Hexwall",
+    "section": "4.5 FIX - getting webshot and phantomjs working",
+    "text": "4.5 FIX - getting webshot and phantomjs working\nsource(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/hexwall.R”) ## call hexwall function and assign to “test” ## this sometimes get an error – try adjusting sticker_row_size test &lt;- hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/my_stickers”, sticker_row_size = 7, sticker_width = 200) test\npng(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) hexwall(“~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex”, sticker_row_size = 4, sticker_width = 200) image_write(test, “~/Documents/r-studio-and-git/my_hex_stickers/hexwall/samplehex/test123.png”) dev.off()\nhex_table &lt;- data.table",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hexwall</span>"
+    ]
+  }
+]

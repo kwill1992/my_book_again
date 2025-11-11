@@ -1,5 +1,11 @@
 # Errors {.unnumbered}
 
 ### Github
-- to fix a git push commit holding up  
-  - rm .git/index.lock [in Terminal]
+
+-   to fix a git push commit holding up
+    -   rm .git/index.lock \[in Terminal\]
+
+### Render to PDF if using html widgets
+-   if rendering to PDF from HTML widgets (e.g., `leaflet`, `DT`), use the `webshot2` package
+    -   install with `install.packages("webshot2")`
+    -   ensure that `webshot2::install_phantomjs()` has been run once to install PhantomJS

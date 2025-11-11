@@ -2,7 +2,6 @@
 title: "Hexwall"
 prefer-html: true
 ---
-# Projects - Hexwall
 
 ## Hex file resources
 
@@ -16,7 +15,7 @@ library(tidyverse)
 library(DT)
 ```
 
-# FIX - get all of these downloaded  
+## FIX - get all of these downloaded  
 https://github.com/rstudio/hex-stickers  
 
 
@@ -28,11 +27,15 @@ test <- hexwall("~/Documents/r-studio-and-git/my_book_again/my_stickers", sticke
 test
 ```
 
+## FIX - getting to export to PDF
+
+## FIX - getting webshot and phantomjs working
+
 
 
 source("~/Documents/r-studio-and-git/my_hex_stickers/hexwall/hexwall.R")
-# call hexwall function and assign to "test"
-# this sometimes get an error -- try adjusting sticker_row_size
+## call hexwall function and assign to "test"
+## this sometimes get an error -- try adjusting sticker_row_size
 test <- hexwall("~/Documents/r-studio-and-git/my_hex_stickers/my_stickers", sticker_row_size = 7, sticker_width = 200)
 test
 
@@ -46,11 +49,11 @@ dev.off()
 hex_table <- data.table
 
 
-# FIX - data.table is not working properly -- needs to be fixed
+## FIX - data.table is not working properly -- needs to be fixed
 It seems to be reading, but not displaying in data.table format correctly.  
 It works within R, but not in Quarto when rendered.  
 
-# FIX - data.table giving a warning about reading in last line  
+## FIX - data.table giving a warning about reading in last line  
 
 ```{r}
 #library(data.table)
