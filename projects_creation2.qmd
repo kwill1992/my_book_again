@@ -9,8 +9,13 @@
 5) Create a git repository: check box
 6) Create project
 
+Notes here:
+<https://happygitwithr.com/existing-github-last>
+
 Now, to connect to your GITHUB repository, follow these steps:  
 In console:  
+usethis::use_git() # to make initial comment  
+Then:
 usethis::use_github()
 This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub.  
 

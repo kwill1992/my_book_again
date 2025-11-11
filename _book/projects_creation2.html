@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects_creation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Projects - Creating Projects2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -238,7 +238,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#creating-a-new-project" id="toc-creating-a-new-project" class="nav-link active" data-scroll-target="#creating-a-new-project">Creating a New Project</a></li>
+  <li><a href="#creating-a-new-quarto-document-with-connection-to-github-repository" id="toc-creating-a-new-quarto-document-with-connection-to-github-repository" class="nav-link active" data-scroll-target="#creating-a-new-quarto-document-with-connection-to-github-repository">Creating a new quarto document with connection to github repository</a></li>
+  <li><a href="#creating-a-new-project" id="toc-creating-a-new-project" class="nav-link" data-scroll-target="#creating-a-new-project">Creating a New Project</a></li>
   <li><a href="#setting-up-version-control-with-git" id="toc-setting-up-version-control-with-git" class="nav-link" data-scroll-target="#setting-up-version-control-with-git">Setting Up Version Control with Git</a></li>
   <li><a href="#add-starting-files" id="toc-add-starting-files" class="nav-link" data-scroll-target="#add-starting-files">add starting files</a></li>
   <li><a href="#add-data-folder" id="toc-add-data-folder" class="nav-link" data-scroll-target="#add-data-folder">add data folder</a></li>
@@ -268,6 +269,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="creating-a-new-quarto-document-with-connection-to-github-repository" class="level3">
+<h3 class="anchored" data-anchor-id="creating-a-new-quarto-document-with-connection-to-github-repository">Creating a new quarto document with connection to github repository</h3>
+<ol type="1">
+<li>click on new project</li>
+<li>new directory</li>
+<li>Choose project type: Example: Quarto Book</li>
+<li>) Directory name: YOUR-PROJECT-NAME</li>
+<li>Create a git repository: check box</li>
+<li>Create project</li>
+</ol>
+<p>Notes here: <a href="https://happygitwithr.com/existing-github-last" class="uri">https://happygitwithr.com/existing-github-last</a></p>
+<p>Now, to connect to your GITHUB repository, follow these steps:<br>
+In console:<br>
+usethis::use_git() # to make initial comment<br>
+Then: usethis::use_github() This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub.</p>
+</section>
 <section id="creating-a-new-project" class="level3">
 <h3 class="anchored" data-anchor-id="creating-a-new-project">Creating a New Project</h3>
 <p>To create a new project, follow these steps: Make this your working directory: ~/Documents/r-studio-and-git</p>
@@ -705,8 +722,8 @@ You will need to render the README.md file each time you make changes to it.</li
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./projects_creation.html" class="pagination-link" aria-label="Project Title">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project Title</span></span>
+      <a href="./projects_creation.html" class="pagination-link" aria-label="Projects - Creating Projects2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Projects - Creating Projects2</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
