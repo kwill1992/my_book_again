@@ -1,0 +1,34 @@
+# Projects - Creating Projects2
+
+### Creating a New Project
+
+To create a new project, follow these steps: Make this your working directory: \~/Documents/r-studio-and-git
+
+In console: library(usethis)
+
+usethis::create_project("\~/Documents/r-studio-and-git/YOUR-PROJECT-NAME") This will create a new directory for your project and open it in RStudio. It will also create a default R project file (.Rproj) for you. It will also create a readme file for you. It will also create a .gitignore file for you.
+
+### Setting Up Version Control with Git
+
+To set up version control with Git for your new project, follow these steps: In console: usethis::use_git() This will initialize a Git repository in your project directory. It will also create a .git directory to track changes. It will also make an initial commit with the existing files in your project. \### Connecting to GitHub To connect your local Git repository to a remote repository on GitHub, follow these steps: First, create a new repository on GitHub without a README, .gitignore, or license. Then, in console: usethis::use_github() This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub. \### Summary You have now created a new R project, set up version control with Git, and connected it to a remote repository on GitHub. You can now start working on your project and use Git to track changes and collaborate with others.
+
+### add starting files
+
+usethis::use_r("import") \# for R scripts under "R" folder usethis::use_r("tidy") \# for R scripts under "R" folder
+
+### add data folder
+
+usethis::use_data_raw() \# for raw data under "data-raw" usethis::use_directory("DATA") \# for processed data under "data"
+
+### fixing and updating README.md file with github info
+
+When README.md file was first created, it does not render properly on GitHub.\
+To fix this, follow these steps:\
+1. Open README.md file in RStudio.\
+2. Add the following YAML header at the top of the file:\
+31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBnAEEAdwBBAEQAVQBBAE0AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEIAMABBAEcAawBBAGQAQQBCAHMAQQBHAFUAQQBPAGcAQQBnAEEAQwBJAEEAVQBBAEIAeQBBAEcAOABBAGEAZwBCAGwAQQBHAE0AQQBkAEEAQQBnAEEARgBRAEEAYQBRAEIAMABBAEcAdwBBAFoAUQBBAGkAQQBDAEEAQQBJAHcAQgB2AEEASABBAEEAZABBAEIAcABBAEcAOABBAGIAZwBCAGgAQQBHAHcAQQBDAGcAQgBoAEEASABVAEEAZABBAEIAbwBBAEcAOABBAGMAZwBBADYAQQBDAEEAQQBJAGcAQgBaAEEARwA4AEEAZABRAEIAeQBBAEMAQQBBAFQAZwBCAGgAQQBHADAAQQBaAFEAQQBpAEEAQwBBAEEASQB3AEEAZwBBAEcAOABBAGMAQQBCADAAQQBHAGsAQQBiAHcAQgB1AEEARwBFAEEAYgBBAEEAZwBBAEEAbwBBAFoAQQBCAGgAQQBIAFEAQQBaAFEAQQA2AEEAQwBBAEEASQBnAEEAeQBBAEQAQQBBAE0AZwBBADAAQQBDADAAQQBNAEEAQQAyAEEAQwAwAEEATQBRAEEAdwBBAEMASQBBAEkAQQBBAGoAQQBHADgAQQBjAEEAQgAwAEEARwBrAEEAYgB3AEIAdQBBAEcARQBBAGIAQQBBAEsAQQBHADgAQQBkAFEAQgAwAEEASABBAEEAZABRAEIAMABBAEQAbwBBAEkAQQBCAG4AQQBHAGsAQQBkAEEAQgBvAEEASABVAEEAWQBnAEIAZgBBAEcAUQBBAGIAdwBCAGoAQQBIAFUAQQBiAFEAQgBsAEEARwA0AEEAZABBAEEASwBBAEMAMABBAEwAUQBBAHQAQQBBAD0APQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
+
+3.  Save the file.
+4.  In console, run the following command to render the README.md file: rmarkdown::render("README.md")
+5.  Commit and push the changes to GitHub. This will update the README.md file to render properly on GitHub with the specified title, author, and date.\
+    You will need to render the README.md file each time you make changes to it.

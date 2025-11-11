@@ -1,4 +1,8 @@
-# Hexwall
+---
+title: "Hexwall"
+prefer-html: true
+---
+# Projects - Hexwall
 
 ## Hex file resources
 
@@ -17,7 +21,7 @@ https://github.com/rstudio/hex-stickers
 
 
 ## load hexwall.R function
-```{r}
+```{r hexwall}
 source("~/Documents/r-studio-and-git/my_book_again/hexwall.R")
 
 test <- hexwall("~/Documents/r-studio-and-git/my_book_again/my_stickers", sticker_row_size = 7, sticker_width = 200)

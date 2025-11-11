@@ -1,5 +1,6 @@
 project:
   type: book
+prefer-html: true
 number-depth: 2
 book:
   title: "my_book_again"
@@ -15,9 +16,11 @@ book:
       chapters: 
        - meat.qmd
        - why_me.qmd
+       - hexwall.qmd
     - part: "Projects"
       chapters:
        - projects_creation.qmd
+       - projects_creation2.qmd
        - projects_hex.qmd
        - projects_openai.qmd
        - rrl_dot_com.qmd
