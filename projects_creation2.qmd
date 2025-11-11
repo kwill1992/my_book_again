@@ -19,6 +19,9 @@ Then:
 usethis::use_github()
 This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub.  
 
+README.md will need to be created.
+You can created one from github respository page.  "Add Page" button.  
+Then pull it down to your local repository.  
 
 
 ### Creating a New Project
