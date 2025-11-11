@@ -1,5 +1,21 @@
 # Projects - Creating Projects
 
+### Creating a new quarto document with connection to github repository
+
+1) click on new project
+2) new directory
+3) Choose project type: Example: Quarto Book
+4) ) Directory name: YOUR-PROJECT-NAME
+5) Create a git repository: check box
+6) Create project
+
+Now, to connect to your GITHUB repository, follow these steps:  
+In console:  
+usethis::use_github()
+This will create a new repository on GitHub and link it to your local Git repository. It will also push your initial commit to the remote repository on GitHub.  
+
+
+
 ### Creating a New Project
 
 To create a new project, follow these steps: Make this your working directory: \~/Documents/r-studio-and-git
