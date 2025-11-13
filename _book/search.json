@@ -234,5 +234,16 @@
       "Part 2",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Concepts</span>"
     ]
+  },
+  {
+    "objectID": "concepts.html#publishing",
+    "href": "concepts.html#publishing",
+    "title": "10  Concepts",
+    "section": "10.4 Publishing",
+    "text": "10.4 Publishing\nhttps://quarto.org/docs/publishing/quarto-pub.html\nhttps://quarto.org/docs/publishing/",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Concepts</span>"
+    ]
   }
 ]
