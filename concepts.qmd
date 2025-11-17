@@ -28,7 +28,7 @@ https://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html https://leaf
 https://www.geeksforgeeks.org/r-language/leaflet-package-in-r/\
 https://www.jla-data.net/eng/leaflet-in-r-tips-and-tricks/
 
-## Publishing  
-<https://quarto.org/docs/publishing/quarto-pub.html>  
-<https://quarto.org/docs/publishing/>  
+## Publishing
 
+<https://quarto.org/docs/publishing/quarto-pub.html>\
+<https://quarto.org/docs/publishing/>
